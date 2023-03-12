@@ -1,20 +1,21 @@
 import React from 'react'
 import './Login.css'
 
+
 const Login = () => {
   return (
     <>
         <div className='main-container'>
-            <div className='left-container'>
-                <div className='left-center-container'>
+            <div className='info-container'>
+                <div className='info-center-container'>
                     <h1 className='heading'><span className='blue'>Gyan Sparsh</span></h1>
                     <h3 className='subheading'>
                         An Education Platform for Hearing and <span className='blue'>Deaf</span> Alike
                     </h3>
                 </div>
             </div>
-            <div className='right-container'>
-                <div className='right-center-container'>
+            <div className='input-container'>
+                <div className='input-center-container'>
                     <div className='welcome'>
                         <h1>Hey, welcome 👋</h1>
                         <h3>Enter the information you entered while registering</h3>
@@ -36,6 +37,9 @@ const Login = () => {
                     </div>
                     <div className='signup-container'>
                         <button className='signup-btn'>Login</button>
+                    </div>
+                    <div className='footer'>
+                        <p>Don't have account? <a href='/register'>Register</a></p>
                     </div>
                     <div className='line'>
                         
